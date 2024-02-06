@@ -1,0 +1,7 @@
+appname: VacationRentals
+build:
+  - type: maven
+    args: --target abc
+deploy:
+  - target: helm
+    args: --version
