@@ -1,3 +1,4 @@
+release: Vacation Rentals 1.5
 appname: VacationRentals
 build:
   - type: maven
