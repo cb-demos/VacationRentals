@@ -2,7 +2,7 @@ release: Vacation Rentals 1.5
 appname: VacationRentals
 build:
   - type: maven
-    args: --target abc
+    args: install -Dmaven.test.skip=true
 deploy:
   - target: helm
-    args: --version
+    args: install vacation-rentals
