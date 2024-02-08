@@ -6,3 +6,4 @@ build:
 deploy:
   - target: helm
     args: install vacation-rentals
+    baseUrl: https://vacationrentals
